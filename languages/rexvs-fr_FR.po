@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rex Variation Swatches for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-14 06:28+0000\n"
+"PO-Revision-Date: 2021-02-24 07:15+0000\n"
+"Last-Translator: devadmin <farshid@coderex.co>\n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:137
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:48
+msgid "Add new"
+msgstr "Ajouter un nouveau"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:114
+msgid "Add new term"
+msgstr "Ajouter un nouveau terme"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:91
+msgid "Added successfully"
+msgstr "Ajouté avec succès"
+
+#: admin/partials/rexvs_settings.php:395
+msgid ""
+"Auto Convert Dropdowns to Button Swatch (only for \"select\" attribute type) "
+"by Default"
+msgstr ""
+"Convertir automatiquement les listes déroulantes en échantillon de bouton "
+"(uniquement pour le type d'attribut \"sélectionner\") par défaut"
+
+#: admin/partials/rexvs_settings.php:250 admin/partials/rexvs_settings.php:312
+msgid "Background Color:"
+msgstr "Couleur de l'arrière plan:"
+
+#: admin/partials/rexvs_settings.php:78
+msgid "Background Color: "
+msgstr "Couleur de l'arrière plan:"
+
+#: admin/partials/rexvs_settings.php:288 admin/partials/rexvs_settings.php:350
+msgid "Border color:"
+msgstr "Couleur de la bordure:"
+
+#: admin/partials/rexvs_settings.php:132
+msgid "Border Enable/Disable:"
+msgstr "Activer / désactiver la bordure:"
+
+#: admin/partials/rexvs_settings.php:273 admin/partials/rexvs_settings.php:335
+msgid "Border width:"
+msgstr "Largeur de la bordure:"
+
+#: admin/partials/rexvs_settings.php:172
+msgid "Border:"
+msgstr "Frontière:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:136
+msgid "Cancel"
+msgstr "Annuler"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:125
+msgid "Choose an image"
+msgstr "Choisissez une image"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:147
+#: includes/class-rex-variation-swatches-for-woocommerce.php:84
+msgid "Color"
+msgstr "Couleur"
+
+#: admin/partials/rexvs_settings.php:261 admin/partials/rexvs_settings.php:323
+msgid "Color:"
+msgstr "Couleur:"
+
+#: admin/partials/rexvs_settings.php:26 admin/partials/rexvs_settings.php:372
+msgid "Controls"
+msgstr "Contrôles"
+
+#: admin/partials/rexvs_settings.php:195
+msgid "Dashed: "
+msgstr "Pointillé:"
+
+#: admin/partials/rexvs_settings.php:415
+msgid "Delete all plugin data on plugin uninstall."
+msgstr ""
+"Supprimez toutes les données du plug-in lors de la désinstallation du plug-"
+"in."
+
+#: admin/partials/rexvs_settings.php:399
+msgid "Delete data on plugin uninstall:"
+msgstr "Supprimer les données lors de la désinstallation du plugin:"
+
+#: admin/partials/rexvs_settings.php:419
+msgid "Disable default plugin stylesheet:"
+msgstr "Désactivez la feuille de style du plugin par défaut:"
+
+#: admin/partials/rexvs_settings.php:196
+msgid "Dotted: "
+msgstr "Pointé"
+
+#: admin/partials/rexvs_settings.php:197
+msgid "Double: "
+msgstr "Double:"
+
+#: admin/partials/rexvs_settings.php:379
+msgid "Dropdowns to Button Swatch:"
+msgstr "Liste déroulante du bouton Swatch:"
+
+#: admin/partials/rexvs_settings.php:89
+msgid "Font Color:"
+msgstr "Couleur de la police:"
+
+#: admin/partials/rexvs_settings.php:66
+msgid "Font Size: "
+msgstr "Taille de police:"
+
+#: admin/partials/rexvs_settings.php:25
+msgid "General"
+msgstr "Générale"
+
+#: admin/partials/rexvs_settings.php:32
+msgid "General Settings"
+msgstr "réglages généraux"
+
+#. Author URI of the plugin
+msgid "https://rextheme.com"
+msgstr "https://rextheme.com"
+
+#. URI of the plugin
+msgid "https://rextheme.com/variation-swatches-for-woocommerce/"
+msgstr "https://rextheme.com/variation-swatches-for-woocommerce/"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:154
+#: includes/class-rex-variation-swatches-for-woocommerce.php:85
+msgid "Image"
+msgstr "Image"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:169
+#: includes/class-rex-variation-swatches-for-woocommerce.php:86
+msgid "Label"
+msgstr "Étiquette"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:118
+msgid "Name"
+msgstr "Nom"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:69
+msgid "Not enough data"
+msgstr "Pas assez de données"
+
+#: admin/partials/rexvs_settings.php:435
+msgid "Option to enable/disable default plugin stylesheet for theme developer"
+msgstr ""
+"Option pour activer / désactiver la feuille de style de plugin par défaut "
+"pour le développeur de thème"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:161
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:216
+msgid "Remove image"
+msgstr "Supprimer l'image"
+
+#. Author of the plugin
+msgid "RexTheme"
+msgstr "RexTheme"
+
+#: admin/partials/rexvs_settings.php:107 admin/partials/rexvs_settings.php:119
+msgid "Rounded: "
+msgstr "Arrondi:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:46
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:47
+msgid "Select none"
+msgstr "Ne rien sélectionner"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:35
+msgid "Select terms"
+msgstr "Sélectionnez les termes"
+
+#: admin/partials/rexvs_settings.php:42
+msgid "Shape Height: "
+msgstr "Hauteur de forme:"
+
+#: admin/partials/rexvs_settings.php:100
+msgid "Shape Style: "
+msgstr "Style de forme:"
+
+#: admin/partials/rexvs_settings.php:54
+msgid "Shape Width: "
+msgstr "Largeur de forme:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:124
+msgid "Slug"
+msgstr "Limace"
+
+#: admin/partials/rexvs_settings.php:194
+msgid "Solid: "
+msgstr "Solide:"
+
+#: admin/partials/rexvs_settings.php:111 admin/partials/rexvs_settings.php:123
+msgid "Squared: "
+msgstr "Au carré:"
+
+#: admin/partials/rexvs_settings.php:38
+msgid "Swatches Global Style"
+msgstr "Swatches Global Style"
+
+#: admin/partials/rexvs_settings.php:246
+msgid "Swatches Hover Style"
+msgstr "Style de survol des échantillons"
+
+#: admin/partials/rexvs_settings.php:308
+msgid "Swatches Selected Style"
+msgstr "Nuancier de style sélectionné"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:73
+msgid "Taxonomy is not exists"
+msgstr "La taxonomie n'existe pas"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:77
+msgid "This term is exists"
+msgstr "Ce terme existe"
+
+#: admin/partials/rexvs_settings.php:229
+msgid "Tooltip Background Color: "
+msgstr "Couleur d'arrière-plan de l'infobulle:"
+
+#: admin/partials/rexvs_settings.php:151
+msgid "Tooltip Enable/Disable:"
+msgstr "Info-bulle Activer / Désactiver:"
+
+#: admin/partials/rexvs_settings.php:207
+msgid "Tooltip Font Size:"
+msgstr "Taille de la police de l'info-bulle:"
+
+#: admin/partials/rexvs_settings.php:218
+msgid "Tooltip Text Color: "
+msgstr "Couleur du texte de l'info-bulle:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:160
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:215
+msgid "Upload/Add image"
+msgstr "Télécharger / ajouter une image"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:126
+msgid "Use image"
+msgstr "Utiliser l'image"
+
+#. Name of the plugin
+#| msgid "Rex Variation Swatches for WooCommerce"
+msgid "Variation Swatches for WooCommerce"
+msgstr "Variation Swatches for WooCommerce"
+
+#. Description of the plugin
+msgid "View your variable products with more attractive look"
+msgstr "Affichez vos produits variables avec un look plus attrayant"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:65
+msgid "Wrong request"
+msgstr "Mauvaise demande"

@@ -1,0 +1,591 @@
+.rexvs-settings * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+.rexvs-settings *:focus {
+  box-shadow: none;
+  border: none;
+  outline: none; }
+.rexvs-settings a:hover,
+.rexvs-settings a:focus,
+.rexvs-settings input:focus,
+.rexvs-settings button:focus,
+.rexvs-settings a:active {
+  text-decoration: none;
+  outline: none;
+  outline-offset: 0px;
+  box-shadow: none; }
+.rexvs-settings a {
+  text-decoration: none; }
+.rexvs-settings ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+.rexvs-settings input[type="tel"],
+.rexvs-settings input[type="number"],
+.rexvs-settings input[type="password"],
+.rexvs-settings input[type="email"],
+.rexvs-settings input[type="text"],
+.rexvs-settings textarea,
+.rexvs-settings select {
+  border: 1px solid #d1d1d1;
+  font-size: 14px;
+  padding: 4px 7px;
+  height: 34px;
+  color: #333; }
+.rexvs-settings textarea {
+  min-height: 120px;
+  resize: none; }
+.rexvs-settings .pos-relative {
+  position: relative; }
+.rexvs-settings a,
+.rexvs-settings .transition-3ms {
+  transition: all 0.3s ease; }
+.rexvs-settings .transition-5ms {
+  transition: all 0.5s ease; }
+.rexvs-settings .btn-default {
+  display: block;
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: #190c4c;
+  transition: all 0.3s ease; }
+  .rexvs-settings .btn-default:hover {
+    background-color: #5932fc; }
+.rexvs-settings .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; }
+.rexvs-settings .rexvs-switcher .switch {
+  visibility: hidden;
+  margin-left: -9999px;
+  position: absolute;
+  width: auto; }
+.rexvs-settings .rexvs-switcher .switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  border-radius: 80px;
+  border: 1px solid #ddd;
+  user-select: none;
+  height: 22px;
+  width: 40px;
+  margin-right: 0;
+  transition: all 0.3s ease; }
+.rexvs-settings .rexvs-switcher .switch + label:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease; }
+.rexvs-settings .rexvs-switcher .switch + label:after {
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  background-color: #ddd;
+  top: 2px; }
+.rexvs-settings .rexvs-switcher .switch:checked + label {
+  border-color: #190c4c; }
+.rexvs-settings .rexvs-switcher .switch:checked + label:after {
+  margin-left: 18px;
+  background-color: #190c4c; }
+.rexvs-settings .rexvs-radio li {
+  display: inline-block;
+  margin-right: 15px; }
+.rexvs-settings .rexvs-radio input[type="checkbox"],
+.rexvs-settings .rexvs-radio input[type="radio"] {
+  display: none; }
+.rexvs-settings .rexvs-radio label {
+  color: #454545;
+  font-size: 14px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-weight: 500; }
+.rexvs-settings .rexvs-radio input[type="checkbox"] + label span,
+.rexvs-settings .rexvs-radio input[type="radio"] + label span {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: -1px 10px 0 0;
+  vertical-align: middle;
+  border-radius: 100%;
+  border: 1px solid #e7e6e6;
+  position: relative;
+  background: #e7e6e6;
+  transition: 0.3s; }
+.rexvs-settings .rexvs-radio input[type="checkbox"] + label span {
+  border-radius: 0; }
+.rexvs-settings .rexvs-radio input[type="checkbox"] + label span::before,
+.rexvs-settings .rexvs-radio input[type="radio"] + label span::before {
+  background: #190c4c;
+  border-radius: 100%;
+  content: "";
+  position: absolute;
+  height: 12px;
+  left: 4px;
+  top: 4px;
+  width: 12px;
+  transform: scale(0);
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden; }
+.rexvs-settings .rexvs-radio input[type="checkbox"] + label span::before {
+  border-radius: 0;
+  transform: scale(1); }
+.rexvs-settings .rexvs-radio input[type="checkbox"]:checked + label span,
+.rexvs-settings .rexvs-radio input[type="radio"]:checked + label span {
+  border-color: #190c4c;
+  background: transparent; }
+.rexvs-settings .rexvs-radio input[type="checkbox"]:checked + label span:before,
+.rexvs-settings .rexvs-radio input[type="radio"]:checked + label span:before {
+  transform: scale(1);
+  visibility: visible;
+  opacity: 1; }
+.rexvs-settings .rexvs-tabs {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 580px; }
+.rexvs-settings .rexvs-tab-nav {
+  width: 200px;
+  background: #190c4c;
+  align-self: stretch; }
+  .rexvs-settings .rexvs-tab-nav li.logo {
+    text-align: center;
+    padding: 15px 0; }
+    .rexvs-settings .rexvs-tab-nav li.logo img {
+      display: block;
+      margin: 0 auto; }
+  .rexvs-settings .rexvs-tab-nav li.ui-state-default {
+    background: transparent;
+    border: none; }
+    .rexvs-settings .rexvs-tab-nav li.ui-state-default a {
+      border: none;
+      border-radius: 0;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 500;
+      text-transform: capitalize;
+      color: #9198c1;
+      display: block;
+      padding: 26px 20px 26px 25px;
+      position: relative; }
+  .rexvs-settings .rexvs-tab-nav li.ui-tabs-active a {
+    color: #fff;
+    background: rgba(89, 50, 252, 0.37);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.12); }
+  .rexvs-settings .rexvs-tab-nav li.single-attr {
+    display: none; }
+.rexvs-settings .tab-content-header {
+  box-shadow: 0 1px 0 0 rgba(153, 159, 187, 0.1);
+  border-radius: 0 0 4px 0;
+  background: #fff;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 14px 24px 30px;
+  margin-right: 20px; }
+  .rexvs-settings .tab-content-header h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #212327;
+    text-transform: capitalize; }
+.rexvs-settings .rexvs-box {
+  box-shadow: 0 1px 1px 0 rgba(111, 115, 124, 0.2);
+  background: #fff;
+  padding: 20px; }
+.rexvs-settings .enabled-swatches-border,
+.rexvs-settings .enabled-tooltip {
+  margin-bottom: 20px; }
+.rexvs-settings .rexvs-form-group {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 20px; }
+  .rexvs-settings .rexvs-form-group:last-child {
+    margin-bottom: 0; }
+  .rexvs-settings .rexvs-form-group input {
+    width: 52px; }
+  .rexvs-settings .rexvs-form-group input[type="number"]::-webkit-outer-spin-button,
+  .rexvs-settings .rexvs-form-group input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .rexvs-settings .rexvs-form-group input[type=number] {
+    -moz-appearance: textfield; }
+  .rexvs-settings .rexvs-form-group .label {
+    font-size: 14px;
+    color: #454545;
+    font-weight: 500;
+    min-width: 150px;
+    margin-right: 20px;
+    display: inline-block;
+    text-transform: capitalize; }
+  .rexvs-settings .rexvs-form-group .hints {
+    font-size: 13px;
+    margin-left: 10px;
+    display: inline-block; }
+  .rexvs-settings .rexvs-form-group .border-style {
+    display: flex;
+    flex-flow: row;
+    align-items: center; }
+    .rexvs-settings .rexvs-form-group .border-style input {
+      width: 52px; }
+    .rexvs-settings .rexvs-form-group .border-style .hints {
+      margin-left: 3px;
+      font-size: 13px;
+      line-height: normal;
+      margin-right: 12px; }
+    .rexvs-settings .rexvs-form-group .border-style select {
+      width: 78px;
+      border: 1px solid #d1d1d1;
+      margin-right: 12px;
+      color: #333; }
+      .rexvs-settings .rexvs-form-group .border-style select:focus {
+        outline: inherit;
+        box-shadow: none; }
+  .rexvs-settings .rexvs-form-group.shape-padding input {
+    width: 65px;
+    margin-left: 5px; }
+    .rexvs-settings .rexvs-form-group.shape-padding input[name="rexvs_top_padding"] {
+      margin-left: 0; }
+.rexvs-settings .rexvs-divider-style {
+  border-bottom: 1px solid #ddd;
+  padding: 0 0 15px;
+  margin-bottom: 30px;
+  width: 100%; }
+  .rexvs-settings .rexvs-divider-style h2 {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize; }
+.rexvs-settings .rexvs-tab-content {
+  width: calc(100% - 200px); }
+  .rexvs-settings .rexvs-tab-content .button-area {
+    display: flex;
+    align-items: center; }
+    .rexvs-settings .rexvs-tab-content .button-area .save-settings {
+      margin-left: 20px; }
+      .rexvs-settings .rexvs-tab-content .button-area .save-settings svg {
+        width: 12px;
+        margin-left: 2px;
+        position: relative;
+        top: 2px;
+        display: none;
+        animation: save-spin 1s infinite linear; }
+    .rexvs-settings .rexvs-tab-content .button-area .validation-msg {
+      font-size: 16px;
+      margin-left: 10px; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap; }
+    .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style {
+      width: calc(100% - 466px);
+      margin-right: 20px;
+      display: flex;
+      flex-flow: row wrap; }
+      .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style > .rexvs-form-group {
+        width: 50%; }
+      .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style .enabled-swatches-border {
+        width: 100%; }
+      .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style .enabled-tooltip {
+        width: 100%; }
+      .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style .tooltip-field-wrapper {
+        display: flex;
+        flex-flow: row wrap; }
+        .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style .tooltip-field-wrapper .rexvs-form-group {
+          width: 50%; }
+    .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.hover-style {
+      max-width: 446px;
+      width: 100%; }
+    .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.selected-style {
+      margin-top: 20px;
+      width: 100%; }
+    .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.clear-btn-style {
+      margin-top: 20px;
+      margin-left: 20px;
+      width: calc(50% - 20px); }
+  .rexvs-settings .rexvs-tab-content .select-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .label-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .image-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .color-attr .tab-content-wrapper .rexvs-box.selected-style {
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .controls .tab-content-wrapper {
+    display: block; }
+    .rexvs-settings .rexvs-tab-content .controls .tab-content-wrapper .rexvs-form-group .label {
+      min-width: 215px; }
+  .rexvs-settings .rexvs-tab-content .gopro-content-wrapper {
+    margin-left: -30px;
+    padding-bottom: 0; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rexvs-box {
+      width: calc(100% / 4 - 30px);
+      margin-left: 30px;
+      margin-bottom: 30px; }
+      .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rexvs-box.license-area {
+        width: 100%; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .content-header {
+      display: inline-flex;
+      align-items: center; }
+      .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .content-header h4 {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-left: 15px; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .content-body {
+      margin-top: 10px; }
+      .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .content-body p {
+        margin-bottom: 20px; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .btn-default {
+      display: inline-block; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .upgrade-pro {
+      text-align: center; }
+      .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .upgrade-pro img {
+        max-width: 150px;
+        display: block;
+        margin: 0 auto; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .upgrade-pro a {
+      margin-top: 10px; }
+    .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rex-license__input-block-area {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: flex-start; }
+      .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rex-license__input-block-area .rex-license__input-field .regular-text {
+        height: 50px;
+        margin-right: 15px;
+        border-radius: 0;
+        padding: 10px 20px; }
+      .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rex-license__input-block-area .rex-licenes__btn-field .btn-default {
+        color: #fff;
+        border-radius: 0; }
+@-webkit-keyframes save-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+@keyframes save-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+.rexvs-settings .wp-picker-container {
+  position: relative; }
+  .rexvs-settings .wp-picker-container .wp-color-result {
+    min-height: 30px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    height: 34px;
+    width: 52px;
+    border: 1px solid #d1d1d1; }
+    .rexvs-settings .wp-picker-container .wp-color-result:focus {
+      box-shadow: none;
+      outline: inherit; }
+    .rexvs-settings .wp-picker-container .wp-color-result .wp-color-result-text {
+      height: 42px;
+      line-height: 43px;
+      font-size: 15px;
+      display: none; }
+  .rexvs-settings .wp-picker-container .wp-picker-input-wrap {
+    margin-left: 10px; }
+  .rexvs-settings .wp-picker-container .wp-picker-clear {
+    width: auto;
+    height: 34px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    color: #444;
+    padding: 0 10px; }
+    .rexvs-settings .wp-picker-container .wp-picker-clear:focus {
+      box-shadow: none;
+      outline: inherit; }
+  .rexvs-settings .wp-picker-container .ui-draggable-handle {
+    transition: none; }
+  .rexvs-settings .wp-picker-container .wp-picker-holder {
+    position: absolute;
+    z-index: 9;
+    bottom: 53px;
+    left: 0; }
+.rexvs-settings .picker-bottom .wp-picker-container .wp-picker-holder {
+  top: 37px;
+  left: 0;
+  bottom: inherit; }
+.rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper {
+  margin-left: -20px;
+  padding-bottom: 0; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box {
+    width: calc(100% / 4 - 20px);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 100%; }
+    .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.shop-global-style {
+      width: calc(100% / 2 - 20px); }
+    .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style {
+      margin-right: 0;
+      width: calc(100% / 2 - 20px); }
+      .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style .hvr-style {
+        margin-bottom: 35px; }
+      .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style .rexvs-divider-style {
+        margin-bottom: 18px; }
+    .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box .rexvs-form-group .label {
+      min-width: 122px; }
+@media only screen and (max-width: 1700px) {
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style {
+    width: 100%;
+    margin-right: 0; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.hover-style {
+    max-width: initial;
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-top: 20px; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.selected-style {
+    width: 50%; }
+  .rexvs-settings .rexvs-tab-content .select-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .label-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .image-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .color-attr .tab-content-wrapper .rexvs-box.selected-style {
+    width: 50%; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-style {
+    margin-top: 0; }
+  .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rexvs-box {
+    width: calc(100% / 3 - 30px); } }
+@media only screen and (max-width: 1600px) {
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 20px; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-style {
+    margin-top: 0; } }
+@media only screen and (max-width: 1300px) {
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style {
+    display: block; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style > .rexvs-form-group {
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style .tooltip-field-wrapper {
+    display: block; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.global-style .tooltip-field-wrapper .rexvs-form-group {
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-form-group .label {
+    min-width: 170px; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.hover-style {
+    width: 100%;
+    margin-right: 0; }
+  .rexvs-settings .rexvs-tab-content .tab-content-wrapper .rexvs-box.selected-style {
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .select-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .label-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .image-attr .tab-content-wrapper .rexvs-box.selected-style,
+  .rexvs-settings .rexvs-tab-content .color-attr .tab-content-wrapper .rexvs-box.selected-style {
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.shop-global-style {
+    width: calc(100% / 1 - 20px); }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style {
+    width: calc(100% / 1 - 20px);
+    display: flex;
+    flex-flow: row; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style .hvr-style {
+    width: 50%;
+    padding-right: 20px; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style .sltd-style {
+    width: 50%; }
+  .rexvs-settings .rexvs-tab-content .gopro-content-wrapper .rexvs-box {
+    width: calc(100% / 2 - 30px); } }
+@media only screen and (max-width: 1199px) {
+  .rexvs-settings .rexvs-tab-nav {
+    width: 180px; }
+  .rexvs-settings .rexvs-tab-nav li.ui-state-default a {
+    padding: 16px; }
+  .rexvs-settings .rexvs-tab-content {
+    width: calc(100% - 180px); }
+  .rexvs-settings .enabled-swatches-border .wp-picker-container .wp-picker-holder {
+    left: -60px; }
+  .rexvs-settings .controls .rexvs-form-group {
+    flex-flow: row wrap; }
+  .rexvs-settings .controls .rexvs-form-group .hints {
+    margin-left: 0;
+    font-style: italic;
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style {
+    display: block; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style .hvr-style {
+    width: 100%; }
+  .rexvs-settings .rexvs-tab-content .shop-page-settings .tab-content-wrapper .rexvs-box.hover-selected-style .sltd-style {
+    width: 100%; } }
+
+@media only screen and (max-width: 991px) {
+  .rexvs-settings input[type="tel"],
+  .rexvs-settings input[type="number"],
+  .rexvs-settings input[type="password"],
+  .rexvs-settings input[type="email"],
+  .rexvs-settings input[type="text"],
+  .rexvs-settings textarea,
+  .rexvs-settings select {
+    min-height: 34px; }
+  .rexvs-settings .enabled-swatches-border .rexvs-form-group .border-style {
+    display: block; }
+  .rexvs-settings .enabled-swatches-border .rexvs-form-group .border-style select {
+    width: 78px;
+    margin: 5px 0 5px;
+    min-height: 34px;
+    display: block; }
+  .rexvs-settings .global-style .enabled-swatches-border .wp-picker-container .wp-color-result {
+    width: 78px; }
+  .rexvs-settings .global-style .rexvs-form-group .border-style input {
+    width: 74px;
+    min-height: 34px;
+    line-height: 1; }
+  .rexvs-settings .rexvs-form-group .border-style input.rexsv-color-picker {
+    width: 80px; }
+  .rexvs-settings .wp-picker-container .wp-picker-clear {
+    line-height: 1;
+    min-height: 34px;
+    margin-bottom: 0; } }
+
+/*# sourceMappingURL=rex-variation-swatches-for-woocommerce-admin.css.map */
+
+/*Control options CSS Starts*/
+.circle-loading-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 999;
+}
+.circle-loading-section .circle-loading {
+  width: 60px;
+  height: 60px;
+  /*background: #fff;*/
+  border-radius: 50%;
+  border: 6px solid #f5f5f5;
+  border-top-color: #190c4c;
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 150px);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  animation: circle-rotate 1.5s linear infinite;
+}
+
+@keyframes circle-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Control options CSS Ends*/

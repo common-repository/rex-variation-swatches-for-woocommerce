@@ -1,0 +1,270 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.rexvs-variations *{
+    box-sizing: border-box;
+}
+.rexvs-variations .hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+.rexvs-variations table {
+    border:none;
+    overflow: visible;
+}
+.rexvs-variations table td,
+.rexvs-variations table th {
+    border: none;
+    word-break: break-all;
+    vertical-align: middle!important;
+}
+.rexvs-variations table tbody > tr:nth-child(2n+1) > td {
+    background-color: transparent;
+}
+.rexvs-variations table.variations td.label label {
+    min-width: 90px;
+}
+.rexvs-variations table.variations td{
+    padding: 5px 10px;
+}
+.rexvs-variations table td.value {
+    display: flex;
+    flex-flow: row wrap;
+}
+.woocommerce.single-product div.product form.cart table.variations td.value:before{
+    display: none!important;
+}
+.rexvs-variations .rexvs-swatches .swatch.swatch-image:before{
+    transition: all 0.3s ease;
+}
+.rexvs-variations .rexvs-swatches {
+    display: flex;
+    flex-flow: row wrap;
+}
+.rexvs-variations .rexvs-swatches .swatch{
+	transition: all 0.3s ease;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.rexvs-variations .rexvs-swatches .swatch:last-child {
+    margin-right: 0;
+}
+
+.rexvs-variations .rexvs-swatches .swatch:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: #444;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.rexvs-variations .rexvs-swatches .swatch:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 3px);
+    transform: translate(-50%, -50%) skew(-8deg) rotate(-45deg);
+    background: transparent;
+    width: 16px;
+    height: 10px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.rexvs-variations .rexvs-swatches .swatch.selected:before,
+.rexvs-variations .rexvs-swatches .swatch.selected:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.rexvs-variations .cv-tooltip{
+    position: absolute;
+    margin: 0;
+    min-width: 110px;
+    background-color: #333;
+    color: #fff;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.4;
+    opacity: 0;
+    visibility: hidden; 
+    padding: 5px 4px;
+    transition: all 0.3s ease;
+    display: none;
+    text-align: center;
+    z-index: 9;
+    word-break: break-word;
+}
+
+.rexvs-variations .cv-tooltip:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 8px;
+    height: 8px;
+    background: #333;
+    transform: translateX(-50%) rotate(45deg);
+}
+.rexvs-variations .reset_variations {
+    font-size: 16px;
+    align-self: flex-end;
+    font-weight: 700;
+    margin-left: 10px;
+    line-height: normal;
+    color: #F56A6A;
+    text-align: center
+}
+.rexvs-variations .rexvs-swatches .swatch:hover .cv-tooltip{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*------default swatch------*/
+.rexvs-variations .rexvs-swatches .swatch.rex-default-swatch{
+    height: auto;
+    border-radius: 3px;
+    display: block;
+    width: auto;
+    text-align: left;
+    margin-right: 10px;
+    line-height: 25px;
+    position: relative;
+    background: none;
+    padding: 5px 12px;
+}
+.rexvs-variations .rexvs-swatches .swatch.rex-default-swatch:before{
+    border-radius: 0;
+}
+
+/*------- swatch image-------*/
+.rexvs-variations .rexvs-swatches .swatch.swatch-image img{
+    border-radius: 100%;
+}
+
+
+.rexvs-variations .variation_notice {
+    margin: 0;
+    font-size: 17px;
+    color: #e21d1d;
+    margin-bottom: 10px;
+}
+
+/* -------swatch disable-state------------ */
+.rexvs-variations .rexvs-swatches .swatch .disable-state {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #cac9c9;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.rexvs-variations .rexvs-swatches .swatch .disable-state:after,
+.rexvs-variations .rexvs-swatches .swatch .disable-state:before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 10px);
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+}
+
+.rexvs-variations .rexvs-swatches .swatch .disable-state:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.rexvs-variations .rexvs-swatches .swatch .disable-state:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.rexvs-variations .rexvs-swatches .swatch.rex-default-swatch .disable-state {
+    border-radius: 3px;
+}
+.rexvs-variations .single_add_to_cart_button.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    user-select: none;
+}
+.rexvs-variations .single_add_to_cart_button.disabled {
+    opacity: 0.5;
+}
+
+.rexvs-variations .rexvs-swatches .swatch.rexvs-disable .disable-state{
+    display: block;
+}
+
+/* -------swatch blurred-state------------ */
+.rexvs-variations .rexvs-swatches .swatch .blurred-state {
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #cccccc9e;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.rexvs-variations .rexvs-swatches .swatch .blurred-state:after,
+.rexvs-variations .rexvs-swatches .swatch .blurred-state:before {
+    /*content: "";
+    position: absolute;
+    width: 2px;
+    height: calc(100% - 10px);
+    background: #471212;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;*/
+    display: none;
+}
+
+.rexvs-variations .rexvs-swatches .swatch .blurred-state:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.rexvs-variations .rexvs-swatches .swatch .blurred-state:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.rexvs-variations .rexvs-swatches .swatch.rex-default-swatch .blurred-state {
+    border-radius: 3px;
+}
+.rexvs-variations .single_add_to_cart_button.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    user-select: none;
+}
+.rexvs-variations .single_add_to_cart_button.disabled {
+    opacity: 0.5;
+}
+
+.rexvs-variations .rexvs-swatches .swatch.rexvs-disable .blurred-state{
+    display: block;
+}

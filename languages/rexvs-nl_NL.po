@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rex Variation Swatches for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-14 06:28+0000\n"
+"PO-Revision-Date: 2021-02-24 07:20+0000\n"
+"Last-Translator: devadmin <farshid@coderex.co>\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:137
+msgid "Add New"
+msgstr "Nieuw toevoegen"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:48
+msgid "Add new"
+msgstr "Nieuw toevoegen"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:114
+msgid "Add new term"
+msgstr "Voeg een nieuwe term toe"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:91
+msgid "Added successfully"
+msgstr "Met succes toegevoegd"
+
+#: admin/partials/rexvs_settings.php:395
+msgid ""
+"Auto Convert Dropdowns to Button Swatch (only for \"select\" attribute type) "
+"by Default"
+msgstr ""
+"Automatisch vervolgkeuzelijsten converteren naar knopstaal (alleen voor het "
+"kenmerktype \"select\") standaard"
+
+#: admin/partials/rexvs_settings.php:250 admin/partials/rexvs_settings.php:312
+msgid "Background Color:"
+msgstr "Achtergrond kleur:"
+
+#: admin/partials/rexvs_settings.php:78
+msgid "Background Color: "
+msgstr "Achtergrond kleur:"
+
+#: admin/partials/rexvs_settings.php:288 admin/partials/rexvs_settings.php:350
+msgid "Border color:"
+msgstr "Rand kleur:"
+
+#: admin/partials/rexvs_settings.php:132
+msgid "Border Enable/Disable:"
+msgstr "Rand inschakelen / uitschakelen:"
+
+#: admin/partials/rexvs_settings.php:273 admin/partials/rexvs_settings.php:335
+msgid "Border width:"
+msgstr "Grensbreedte:"
+
+#: admin/partials/rexvs_settings.php:172
+msgid "Border:"
+msgstr "Grens:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:136
+msgid "Cancel"
+msgstr "annuleren"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:125
+msgid "Choose an image"
+msgstr "Kies een afbeelding"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:147
+#: includes/class-rex-variation-swatches-for-woocommerce.php:84
+msgid "Color"
+msgstr "Kleur"
+
+#: admin/partials/rexvs_settings.php:261 admin/partials/rexvs_settings.php:323
+msgid "Color:"
+msgstr "Kleur:"
+
+#: admin/partials/rexvs_settings.php:26 admin/partials/rexvs_settings.php:372
+msgid "Controls"
+msgstr "Besturing"
+
+#: admin/partials/rexvs_settings.php:195
+msgid "Dashed: "
+msgstr "Onderbroken:"
+
+#: admin/partials/rexvs_settings.php:415
+msgid "Delete all plugin data on plugin uninstall."
+msgstr "Verwijder alle plug-in gegevens bij het verwijderen van de plug-in."
+
+#: admin/partials/rexvs_settings.php:399
+msgid "Delete data on plugin uninstall:"
+msgstr "Gegevens verwijderen bij verwijderen van plug-in:"
+
+#: admin/partials/rexvs_settings.php:419
+msgid "Disable default plugin stylesheet:"
+msgstr "Schakel standaard plugin stylesheet uit:"
+
+#: admin/partials/rexvs_settings.php:196
+msgid "Dotted: "
+msgstr "Gestippeld:"
+
+#: admin/partials/rexvs_settings.php:197
+msgid "Double: "
+msgstr "Dubbele:"
+
+#: admin/partials/rexvs_settings.php:379
+msgid "Dropdowns to Button Swatch:"
+msgstr "Dropdowns naar Button Swatch:"
+
+#: admin/partials/rexvs_settings.php:89
+msgid "Font Color:"
+msgstr "Letterkleur:"
+
+#: admin/partials/rexvs_settings.php:66
+msgid "Font Size: "
+msgstr "Lettertypegrootte:"
+
+#: admin/partials/rexvs_settings.php:25
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/partials/rexvs_settings.php:32
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#. Author URI of the plugin
+msgid "https://rextheme.com"
+msgstr "https://rextheme.com"
+
+#. URI of the plugin
+msgid "https://rextheme.com/variation-swatches-for-woocommerce/"
+msgstr "https://rextheme.com/variation-swatches-for-woocommerce/"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:154
+#: includes/class-rex-variation-swatches-for-woocommerce.php:85
+msgid "Image"
+msgstr "Beeld"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:169
+#: includes/class-rex-variation-swatches-for-woocommerce.php:86
+msgid "Label"
+msgstr "Etiket"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:118
+msgid "Name"
+msgstr "Naam"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:69
+msgid "Not enough data"
+msgstr "Niet genoeg data"
+
+#: admin/partials/rexvs_settings.php:435
+msgid "Option to enable/disable default plugin stylesheet for theme developer"
+msgstr ""
+"Optie om standaard plugin stylesheet voor thema-ontwikkelaar in / uit te "
+"schakelen"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:161
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:216
+msgid "Remove image"
+msgstr "Afbeelding verwijderen"
+
+#. Author of the plugin
+msgid "RexTheme"
+msgstr "RexTheme"
+
+#: admin/partials/rexvs_settings.php:107 admin/partials/rexvs_settings.php:119
+msgid "Rounded: "
+msgstr "Afgerond"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:46
+msgid "Select all"
+msgstr "Selecteer alles"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:47
+msgid "Select none"
+msgstr "Selecteer niets"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:35
+msgid "Select terms"
+msgstr "Selecteer voorwaarden"
+
+#: admin/partials/rexvs_settings.php:42
+msgid "Shape Height: "
+msgstr "Vorm hoogte:"
+
+#: admin/partials/rexvs_settings.php:100
+msgid "Shape Style: "
+msgstr "Vorm stijl:"
+
+#: admin/partials/rexvs_settings.php:54
+msgid "Shape Width: "
+msgstr "Vorm breedte:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:124
+msgid "Slug"
+msgstr "Slug"
+
+#: admin/partials/rexvs_settings.php:194
+msgid "Solid: "
+msgstr "Solide:"
+
+#: admin/partials/rexvs_settings.php:111 admin/partials/rexvs_settings.php:123
+msgid "Squared: "
+msgstr "Vierkant:"
+
+#: admin/partials/rexvs_settings.php:38
+msgid "Swatches Global Style"
+msgstr "Stalen Global Style"
+
+#: admin/partials/rexvs_settings.php:246
+msgid "Swatches Hover Style"
+msgstr "Stalen Hover Style"
+
+#: admin/partials/rexvs_settings.php:308
+msgid "Swatches Selected Style"
+msgstr "Stalen geselecteerde stijl"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:73
+msgid "Taxonomy is not exists"
+msgstr "Taxonomie bestaat niet"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:77
+msgid "This term is exists"
+msgstr "Deze term bestaat"
+
+#: admin/partials/rexvs_settings.php:229
+msgid "Tooltip Background Color: "
+msgstr "Achtergrondkleur knopinfo:"
+
+#: admin/partials/rexvs_settings.php:151
+msgid "Tooltip Enable/Disable:"
+msgstr "Knopinfo in- / uitschakelen:"
+
+#: admin/partials/rexvs_settings.php:207
+msgid "Tooltip Font Size:"
+msgstr "Lettergrootte knopinfo:"
+
+#: admin/partials/rexvs_settings.php:218
+msgid "Tooltip Text Color: "
+msgstr "Tekstkleur knopinfo:"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:160
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:215
+msgid "Upload/Add image"
+msgstr "Afbeelding uploaden / toevoegen"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin.php:126
+msgid "Use image"
+msgstr "Gebruik afbeelding"
+
+#. Name of the plugin
+#| msgid "Rex Variation Swatches for WooCommerce"
+msgid "Variation Swatches for WooCommerce"
+msgstr "Variation Swatches for WooCommerce"
+
+#. Description of the plugin
+msgid "View your variable products with more attractive look"
+msgstr "Bekijk uw variabele producten met een aantrekkelijkere uitstraling"
+
+#: admin/class-rex-variation-swatches-for-woocommerce-admin-product.php:65
+msgid "Wrong request"
+msgstr "Onjuist verzoek"
